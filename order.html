@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=s, initial-scale=1.0">
+    <title>Payment window</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: beige;
+    }
+    #b{
+        font-size: larger;
+    }
+</style>
+<body>
+    <h1>Welcome to the payment gateway !</h1>
+    <p id="b">To Place your order complete the following process:-</p>
+    <h3>Enter Personal Details and Correspondence Address: </h3>
+    <ol>
+        <form action="#" method="post">
+        <li><label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+        </li>
+        <li>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required>
+        </li>
+        <li>
+            <label for="num">Mobile Number:</label><br>
+            <input type="number" name="num" id="number" required>
+        </li>
+        <li>
+            <label for="email">Email ID:</label><br>
+            <input type="text" name="email" id="mail" required>
+        </li>
+        <li>
+            <label for="address">Permanent Address:</label><br>
+            <input type="text" name="address" id="add" required>
+        </li>
+        <li>
+            <label for="code">Pincode:</label><br>
+            <input type="number" name="code" id="code" required><br>
+        </li>
+        <input type="submit" value="Submit">
+    </form>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    font-size: larger;
+}
+header{
+    background-color: bisque;
+    height: 111px;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
+    margin-bottom: 5px;
+    text-align: center;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: black;
+}
+a{
+    color: white;
+}
+#buttons{
+    text-align: end;
+    display: inline-flex;
+}
+#b1{
+    margin-right: 10px;
+}
+nav ul {
+    display: inline-flex;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 25px;
+    border-style: dashed;
+  }
+#image, #image1, #image2, #image3{
+    display: inline-flex;
+    float: right;
+    margin: 25px;
+    border-style: double;
+    border-width: 7px;
+    border-color: black;
+    border-radius: 10px;
+}
+#key{
+    display: inline-flex;
+}
+#a{
+    display: inline-flex;
+}
+#ab{
+    font-size: small;
+}
+#b2{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    padding: 0;
+    margin: 0;
+}
+#me{
+    margin-bottom: 3px;
+}
+#about{
+    display: inline-flex;
+    height: 80px;
+}
+h2{
+    margin-bottom: 0;
+    margin-top: 25px;
+    margin-right: 250px;
+    height: 80px;
+}
+#h3{
+    margin-bottom: 0;
+    margin-top: 5px;
+    display: inline-flex;
+    margin-left: 25px;
+}
+#foot{
+    text-align: center;
+}
+footer{
+    height: 220px;
+    background-color: bisque;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5px;
+    border-style: groove;
+}
+#query{
+    margin: 10px;
+    display: inline-flex;
+    width: 500px;
+}
+#Suggest{
+    margin: 10px;
+    display: inline-flex;
+}
+#contact{
+    display: inline-block;
+    width: 1200px;
+}
+input{
+    padding: 25px 200px;
+    box-sizing: border-box;
+    resize: none;
+}
